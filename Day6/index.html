@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <!-- <h1>I am in title</h1>
+    <a href="https://abes.ac.in">Abes Website</a>
+    <button onclick="changeheader()">Click Kar</button>
+    
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <button onclick="display()">Click here</button> -->
+
+    <!-- <button onclick="addcontent()">Add Content</button> -->
+
+    <!-- <p id="res"></p> -->
+    <!-- <button>Click me</button> -->
+    <button id="btn">Button 1</button>
+    <script>
+        //const button=document.querySelector('button');
+       //button.addEventListener('click',()=>alert('hello'));
+       // button.addEventListener('click',()=>{ document.getElementById('res').innerHTML='Updated'});
+
+
+       // document.getElementById('btn').onmouseover=()=>{
+       //     document.querySelector('body').style.backgroundColor='red';
+      //}
+
+      const handleclick=()=>
+      {
+        document.getElementById('btn').style.translate='30rem 0';
+      }
+      
+      let btn=document.getElementById('btn');
+      btn.addEventListener('click',handleclick)
+    </script>
+</body>
+</html>

@@ -8,7 +8,7 @@ const Displaymarks = () => {
         {name:'Aditya',roll:87878,m1:98,m2:89,m3:58},
         {name:'Aakash',roll:87879,m1:98,m2:89,m3:58},
         {name:'Aadya',roll:87880,m1:98,m2:89,m3:58},
-        {name:'Aryan',roll:87881,m1:98,m2:89,m3:58},
+        {name:'Aarya',roll:87881,m1:98,m2:89,m3:58},
     ];
   return (
     <div>
